@@ -574,5 +574,29 @@ export const playerList = [
     position: 'Batter, Bowler',
     firstName: 'Abhina',
     lastName: 'A'
+  },
+  {
+    id: 100,
+    name: 'Davis Sebastian',
+    category: 'C',
+    position: 'Batter, Bowler',
+    firstName: 'Davis',
+    lastName: 'Sebastian'
+  },
+  {
+    id: 101,
+    name: 'Sanoj Ramachandran',
+    category: 'C',
+    position: 'Bowler',
+    firstName: 'Sanoj',
+    lastName: 'Ramachandran'
+  },
+  {
+    id: 102,
+    name: 'Aiswarya Paichadathil',
+    category: 'WA',
+    position: 'Batter, Bowler',
+    firstName: 'Aiswarya',
+    lastName: 'Paichadathil'
   }
 ];
