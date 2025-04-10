@@ -186,7 +186,7 @@ export const playerList = [
     id: 33,
     name: 'Anandhakrishnan M',
     category: 'A',
-    position: 'Bowler, Batter',
+    position: 'Batter, Bowler',
     firstName: 'Anandhakrishnan',
     lastName: 'M'
   },
@@ -210,7 +210,7 @@ export const playerList = [
     id: 36,
     name: 'M H Javed Khayam S',
     category: 'B',
-    position: 'Bowler, Batter',
+    position: 'Batter, Bowler',
     firstName: 'Javed',
     lastName: 'Khayam'
   },
@@ -242,7 +242,7 @@ export const playerList = [
     id: 43,
     name: 'Rishon Krishna',
     category: 'A',
-    position: 'Bowler, Batter',
+    position: 'Batter, Bowler',
     firstName: 'Rishon',
     lastName: 'Krishna'
   },
@@ -282,7 +282,7 @@ export const playerList = [
     id: 56,
     name: 'Aswani r s',
     category: 'WA',
-    position: 'Bowler, Batter',
+    position: 'Batter, Bowler',
     firstName: 'Aswani',
     lastName: 'r'
   },

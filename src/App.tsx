@@ -89,8 +89,8 @@ const App = () => {
   };
 
   const startBidAmount = () => {
-    if (category === Categories.A || category === Categories.WA) return 5;
-    if (category === Categories.B || category === Categories.WB) return 3;
+    if (category === Categories.A) return 5;
+    if (category === Categories.B) return 3;
     else return 2;
   };
 
@@ -166,7 +166,7 @@ const App = () => {
       tempList.push({
         playerId: auctionPlayer?.id,
         teamId: lastBid?.teamId || 0,
-        price: lastBid?.bidAmount || 0,
+        price: lastBid?.bidAmount || 0
       });
       setCompleteAuctionList(tempList);
       localStorage.setItem('completedAuctions', JSON.stringify(tempList));

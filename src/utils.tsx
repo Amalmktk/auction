@@ -1,7 +1,7 @@
 import { teamList } from './constants/teamList';
 import { AuctionListProps } from './types';
 
-const maxBidLimit = 80;
+const maxBidLimit = 70;
 const minPlayerBidAmount = 2;
 const minPlayerCount = 11;
 
@@ -45,7 +45,7 @@ export const getTeamBidLimit = (completeAuctionList: AuctionListProps[]) => {
   return {
     auctionBal: auctionBalObj,
     playerCount: totalPlayerObj,
-    totalBudget: totalBudget,
+    totalBudget: totalBudget
   };
 };
 
@@ -58,15 +58,16 @@ export const getTeamBGColor = (teamId: number) => {
   if (teamId === 2) return 'bg-[#33B0F6]';
   if (teamId === 3) return 'bg-[#4B31E8]';
   if (teamId === 4) return 'bg-[#FFE28A]';
-  // if (teamId === 5) return 'bg-[#78BEA2]';
+  if (teamId === 5) return 'bg-[#78BEA2]';
   // if (teamId === 6) return 'bg-[#2E2F32]';
 };
 
 export const getTeamLabel = (teamId: number) => {
-  if (teamId === 1) return 'Duckouts';
+  if (teamId === 1) return 'Kalashnikov';
   if (teamId === 2) return 'Whikings';
-  if (teamId === 3) return 'Titans';
-  if (teamId === 4) return 'Cobras';
+  if (teamId === 3) return 'Old Monks';
+  if (teamId === 4) return 'HighStakes';
+  if (teamId === 5) return 'The Gully Gods';
   // if (teamId === 5) return 'Mustangs';
   // if (teamId === 6) return 'Mavericks';
 };

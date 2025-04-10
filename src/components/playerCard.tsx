@@ -38,7 +38,7 @@ const PlayerCard: FC<PlayerCardProps> = ({
   player,
   size = 'small',
   isSold = false,
-  getSinglePlayer,
+  getSinglePlayer
 }) => {
   return (
     <Grid item xs={2.4} key={player.id}>
@@ -55,7 +55,7 @@ const PlayerCard: FC<PlayerCardProps> = ({
               size === 'large' ? 'h-[320px] w-[280px]' : 'h-[210px] w-[180px]'
             } object-cover`}
           />
-          {player.id <= 4 && player.id > 0 && <CaptianBadge value="C" />}
+          {/* {player.id <= 4 && player.id > 0 && <CaptianBadge value="C" />} */}
           {/* {player.id <= 12 && player.id > 6 && <CaptianBadge value="VC" />} */}
         </div>
         {/* <div
@@ -77,7 +77,7 @@ const PlayerCard: FC<PlayerCardProps> = ({
             size === 'large' ? 'text-[32px]' : 'text-[20px]'
           } word-break-value`}
         >
-          {player.lastName?.toUpperCase()}
+          {player?.lastName !== '_' && player.lastName?.toUpperCase()}
         </div>
         <PositionCard position={player.position} size={size} />
         <Button
