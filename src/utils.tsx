@@ -1,7 +1,7 @@
 import { teamList } from './constants/teamList';
 import { AuctionListProps } from './types';
 
-const maxBidLimit = 70;
+const maxBidLimit = 80;
 const minPlayerBidAmount = 2;
 const minPlayerCount = 11;
 
