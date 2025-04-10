@@ -15,12 +15,12 @@ const NavBar: FC<NavBarProps> = ({
   isCategoryActive,
   isTeamsActive,
   isAuctionList,
-  onClickSoldPlayers,
+  onClickSoldPlayers
 }) => {
   return (
     <div className="fixed flex top-0 w-full bg-white z-[100] h-[70px] justify-between px-10 py-4 text-lg font-semibold items-center shadow">
       <div>
-        <img src="svg/kvlogo.svg" alt="logo" className='w-[140px] h-[60px]' />
+        <img src="svg/kvlogo.png" alt="logo" className="w-[140px] h-[60px]" />
       </div>
       <div className="flex">
         <div
